@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo oscuro redondeado -->
+  <rect width="100" height="100" rx="22" fill="#0f172a" />
+
+  <!-- Monograma AM Vectorial -->
+  <g transform="translate(18, 18)">
+    <path d="M 12 58 L 32 10 L 42 30 L 26 58 Z" fill="url(#favGrad)" />
+    <path d="M 32 10 L 52 58 L 42 58 L 32 35 L 22 58 L 12 58 Z" fill="#ffffff" />
+    <path d="M 42 30 L 62 58 L 52 58 L 42 38 Z" fill="url(#favGrad)" />
+    
+    <!-- Puntos de ancla (Nodos vectoriales) -->
+    <circle cx="32" cy="10" r="4" fill="#ffffff" />
+    <circle cx="12" cy="58" r="3.5" fill="#db2777" />
+    <circle cx="62" cy="58" r="3.5" fill="#7c3aed" />
+  </g>
+</svg>

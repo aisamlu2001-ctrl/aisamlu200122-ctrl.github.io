@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Degradado Principal (Violeta a Fucsia) -->
+    <linearGradient id="gradienteLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+
+    <!-- Sombra suave para dar profundidad -->
+    <filter id="sombraSuave" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#7c3aed" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Fondo Circular Neón -->
+  <circle cx="250" cy="250" r="210" fill="#0f172a" stroke="url(#gradienteLogo)" stroke-width="6" filter="url(#sombraSuave)" />
+
+  <!-- Monograma Geométrico A/M + Pluma de Diseño -->
+  <g transform="translate(100, 100)">
+    <!-- Letra A / Trazo Izquierdo -->
+    <path d="M 50 230 L 150 50 L 190 120 L 130 230 Z" fill="url(#gradienteLogo)" />
+    
+    <!-- Letra M / Trazo Centro-Derecha -->
+    <path d="M 150 50 L 250 230 L 200 230 L 150 140 L 100 230 L 60 230 Z" fill="#ffffff" opacity="0.95" />
+    
+    <!-- Pincel/Cursor de Vector Interactivo -->
+    <path d="M 190 120 L 230 190 L 180 180 Z" fill="#db2777" />
+    <circle cx="150" cy="50" r="10" fill="#db2777" />
+    <circle cx="50" cy="230" r="8" fill="#7c3aed" />
+    <circle cx="250" cy="230" r="8" fill="#db2777" />
+  </g>
+</svg>

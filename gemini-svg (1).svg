@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 60" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradAMComp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+
+  <!-- Isotipo Geometrico AM -->
+  <g transform="translate(0, -2)">
+    <path d="M 10 52 L 28 10 L 37 28 L 23 52 Z" fill="url(#gradAMComp)" />
+    <path d="M 28 10 L 46 52 L 37 52 L 28 32 L 19 52 L 10 52 Z" fill="#0f172a" />
+    <path d="M 37 28 L 55 52 L 46 52 L 37 36 Z" fill="url(#gradAMComp)" />
+    <circle cx="28" cy="10" r="3.5" fill="#db2777" />
+    <circle cx="10" cy="52" r="3" fill="#7c3aed" />
+    <circle cx="55" cy="52" r="3" fill="#db2777" />
+  </g>
+
+  <!-- Texto pegado a la marca -->
+  <text x="68" y="34" font-family="&#39;Montserrat&#39;, sans-serif" font-weight="800" font-size="25" fill="#0f172a">
+    AARÓN <tspan fill="url(#gradAMComp)">MASI</tspan>
+  </text>
+  
+  <text x="68" y="52" font-family="&#39;Poppins&#39;, sans-serif" font-weight="600" font-size="10.5" fill="#64748b" letter-spacing="1.2">
+    DISEÑO GRÁFICO DIGITAL
+  </text>
+</svg>
